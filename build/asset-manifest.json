@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f54ad198.css",
+    "main.js": "/static/js/main.ff5e095e.js",
+    "static/media/zhytomyr.png": "/static/media/zhytomyr.4c351e0463d12c328c03.png",
+    "static/media/zaporizhzhya.png": "/static/media/zaporizhzhya.08a1f02eb6782ae11202.png",
+    "static/media/luhansk.png": "/static/media/luhansk.31432231deef1a2ce32e.png",
+    "static/media/dnipro.png": "/static/media/dnipro.b33a08de0b2317b26c40.png",
+    "static/media/ternopil.png": "/static/media/ternopil.ac933a95ba6f4eb3404d.png",
+    "static/media/kropyvnytsky.png": "/static/media/kropyvnytsky.d47020afc5346c39c558.png",
+    "static/media/cherksy.png": "/static/media/cherksy.fe465f54df5230c0cf03.png",
+    "static/media/odesa.png": "/static/media/odesa.7936718adfe391cebf88.png",
+    "static/media/kherson.png": "/static/media/kherson.bf316194691ca08e342a.png",
+    "static/media/mikolayiv.png": "/static/media/mikolayiv.25ae95fcba72217861ce.png",
+    "static/media/chernivtsi.png": "/static/media/chernivtsi.056c544c24655b2abcd0.png",
+    "static/media/khmelnytsk.png": "/static/media/khmelnytsk.41fbcb80858d59492e10.png",
+    "static/media/kharkiv.png": "/static/media/kharkiv.96978f0b70b7bbf6a9ed.png",
+    "static/media/donetsk.png": "/static/media/donetsk.0be3f0709e7770e8a1b8.png",
+    "static/media/kiev.png": "/static/media/kiev.27752e751002a2eb13ba.png",
+    "static/media/crimea.png": "/static/media/crimea.ea8882e9ff9163357a72.png",
+    "static/media/poltava.png": "/static/media/poltava.0ba8b181ff393510408c.png",
+    "static/media/lviv.png": "/static/media/lviv.f3c60d9e6526e1aba952.png",
+    "static/media/rivne.png": "/static/media/rivne.b0b78de2b3144921b2bb.png",
+    "static/media/chernigiv.png": "/static/media/chernigiv.dba5432a260fb9a9faef.png",
+    "static/media/vinnitsya.png": "/static/media/vinnitsya.263f9ff98c338ec0efbc.png",
+    "static/media/sumy.png": "/static/media/sumy.acb440e7d937cc558d1e.png",
+    "static/media/ivano-frankivsk.png": "/static/media/ivano-frankivsk.2f5aa40422a875d5839e.png",
+    "static/media/uzhgorod.png": "/static/media/uzhgorod.479929e36b3e5df87b58.png",
+    "index.html": "/index.html",
+    "main.f54ad198.css.map": "/static/css/main.f54ad198.css.map",
+    "main.ff5e095e.js.map": "/static/js/main.ff5e095e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f54ad198.css",
+    "static/js/main.ff5e095e.js"
+  ]
+}

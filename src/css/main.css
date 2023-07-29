@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+/* Main styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans';
+}
+
+html {
+    overflow-y: hidden;
+    background-color: rgb(251, 255, 150);
+    font-family: 'Balsamiq Sans';
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.main-content {
+    display: flex;
+    min-height: 10em;
+    justify-content: center;
+}
+
+.next-button.notActive {
+    position: absolute;
+    width: 15vw;
+    height: 20vh;
+    pointer-events: none;
+
+    top: 50vh;
+    font-size: 4vw;
+
+    background-color: rgb(30, 0, 255);
+    color: rgb(239, 239, 70);
+    border: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.next-button {
+    position: absolute;
+    width: 15vw;
+    height: 20vh;
+    pointer-events: none;
+
+    top: 50vh;
+    font-size: 4vw;
+
+    background-color: rgb(30, 0, 255);
+    color: rgb(239, 239, 70);
+    border: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.next-button.active {
+    position: absolute;
+    width: 15vw;
+    height: 20vh;
+    pointer-events: all;
+
+    top: 50vh;
+    font-size: 4vw;
+
+    background-color: rgb(30, 0, 255);
+    color: rgb(239, 239, 70);
+    border: 0;
+    opacity: 1;
+    transition: opacity 1s ease 2s;
+}
+
+.next-button.active:hover {
+    background-color: rgb(23, 0, 199);
+    color: rgb(186, 186, 53);
+}
+
+/* Panel */
+
+.region-div.normal {
+    width: 50%;
+    height: 100%;
+    pointer-events: all;
+
+    margin-top: 0;
+    transition: all 0s ease-in 0s;
+}
+
+.region-div.falls {
+    width: 50%;
+    height: 100%;
+    margin-top: 100vh;
+
+    pointer-events: none;
+    transition: all 0.6s ease-out 2s;
+}
+
+.region-div.correct {
+    width: 50%;
+    height: 100%;
+    pointer-events: none;
+    margin-top: 0;
+
+    transition: all 0.6s ease-out 0.2s;
+}
+
+.region-button {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    font-size: 2vw;
+    border: 0;
+
+    color: rgb(30, 0, 255);
+
+    background-color: rgb(239, 239, 70);
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-color: rgb(242, 216, 48);
+    transition: border-width 0.3s ease-in, font-size 0.3s ease-in;
+}
+
+.region-button:hover {
+    border-width: 10vh;
+    font-size: 3vw;
+}
+
+.counter {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    font-size: 120px;
+    text-align: center;
+    color: rgb(30, 0, 255);
+}
+
+.value-text {
+    font-size: 7vh;
+    color: rgb(0, 0, 0);
+}
+
+/* Main menu styles */
+
+.main-menu-content,
+.end-menu-content {
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+    display: block;
+    font-size: 3vw;
+}
+
+.title-text,
+.end-title-text {
+    font-size: 6vw;
+    margin-bottom: 60px;
+    color: lime;
+}
+
+.end-title-text {
+    color: red;
+    font-size: 6vw;
+}
+
+.main-menu,
+.end-menu.game-running {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.907);
+    width: 100%;
+    height: 100vh;
+
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.main-menu.is-game-started {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.end-menu.game-running {
+    opacity: 0;
+    transition: opacity 1s ease 2s;
+    pointer-events: none;
+}
+
+.end-menu.game-ended {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.start-button {
+    height: 15vh;
+    width: 20vw;
+    font-size: 4vw;
+
+    border: 0;
+    background-color: rgb(10, 0, 143);
+    color: rgb(198, 198, 0);
+}
+
+.start-button:hover {
+    background-color: rgb(14, 0, 212);
+    color: rgb(255, 255, 0);
+}
+
+.author-text {
+    font-size: 1.6vw;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.info-text,
+.end-info-text {
+    font-size: 1.6vw;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+.end-info-text,
+.endMoneyCounter {
+    font-size: 1.9vw;
+}
+
+.endMoneyCounter {
+    color: lime;
+}

@@ -1,0 +1,129 @@
+{
+    "info": [
+        {
+            "id": 0,
+            "value": 20.9,
+            "code": "cherkasy"
+        },
+        {
+            "id": 1,
+            "value": 31.9,
+            "code": "chernigiv"
+        },
+        {
+            "id": 2,
+            "value": 8.1,
+            "code": "chernivtsi"
+        },
+        {
+            "id": 3,
+            "value": 26,
+            "code": "crimea"
+        },
+        {
+            "id": 4,
+            "value": 32,
+            "code": "dnipro"
+        },
+        {
+            "id": 5,
+            "value": 26.6,
+            "code": "donetsk"
+        },
+        {
+            "id": 6,
+            "value": 13.9,
+            "code": "ivanofrankivsk"
+        },
+        {
+            "id": 7,
+            "value": 31.4,
+            "code": "kharkiv"
+        },
+        {
+            "id": 8,
+            "value": 28.4,
+            "code": "kherson"
+        },
+        {
+            "id": 9,
+            "value": 20.6,
+            "code": "khmelnytsk"
+        },
+        {
+            "id": 10,
+            "value": 28.1,
+            "code": "kiev"
+        },
+        {
+            "id": 11,
+            "value": 24.5,
+            "code": "kropyvnytsky"
+        },
+        {
+            "id": 12,
+            "value": 26.7,
+            "code": "luhansk"
+        },
+        {
+            "id": 13,
+            "value": 20.1,
+            "code": "lutsk"
+        },
+        {
+            "id": 14,
+            "value": 21.8,
+            "code": "lviv"
+        },
+        {
+            "id": 15,
+            "value": 24.6,
+            "code": "mikolayiv"
+        },
+        {
+            "id": 16,
+            "value": 33.3,
+            "code": "odesa"
+        },
+        {
+            "id": 17,
+            "value": 28.75,
+            "code": "poltava"
+        },
+        {
+            "id": 18,
+            "value": 20.05,
+            "code": "rivne"
+        },
+        {
+            "id": 19,
+            "value": 23.8,
+            "code": "sumy"
+        },
+        {
+            "id": 20,
+            "value": 13.8,
+            "code": "ternopil"
+        },
+        {
+            "id": 21,
+            "value": 12.7,
+            "code": "uzhgorod"
+        },
+        {
+            "id": 22,
+            "value": 26.4,
+            "code": "vinnitsya"
+        },
+        {
+            "id": 23,
+            "value": 27.1,
+            "code": "zaporizhzhya"
+        },
+        {
+            "id": 24,
+            "value": 29.8,
+            "code": "zhytomyr"
+        }
+    ]
+}
